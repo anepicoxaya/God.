@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>?God?</title>
+  <script>
+    // List of known ScriptBlox script slugs (you can expand this list manually)
+    const scriptSlugs = [
+      "Infinite-Yield_500",
+      "Universal-Script-zerohub",
+      "Universal-Script-Fake-lag-41217",
+      "MIC-UP-credits-to-owner-stalkie-best-script-40922",
+      "Grow-a-Garden-Forge-Hub-41224",
+      "Dead-Rails-Alpha-Dead-Rails-OP-SCRIPT-41226",
+      "Universal-Script-Universal-Aimbot-23560",
+      "GRAVITY-Blox-Fruits-BEST-SCRIPT-SOLARA-AND-XENO-AUTO-V4-AUTO-LEVEL-AUTO-RAID-37566",
+      "Universal-Script-Chat-Tracker-36944",
+      "Brookhaven-RP-Neon-Duplicator-38346"
+    ];
+
+    function redirectToRandomScript() {
+      const randomSlug = scriptSlugs[Math.floor(Math.random() * scriptSlugs.length)];
+      window.location.href = `https://scriptblox.com/script/${randomSlug}`;
+    }
+
+    window.onload = redirectToRandomScript;
+  </script>
+</head>
+<body>
+  <h1>Redirecting you to a random ScriptBlox script...</h1>
+</body>
+</html>
